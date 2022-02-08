@@ -13,3 +13,32 @@ blueButton.onclick = makeBlue;
 function makeBlue(){
     document.body.style.backgroundColor='blue';
 }
+
+
+// green button
+const greenButton = document.getElementById('make-green-button');
+greenButton.onclick = function makeGreen(){
+    document.body.style.backgroundColor ='green';
+}
+
+// golden
+const goldenButton = document.getElementById('make-golden-button');
+  goldenButton.addEventListener('click', makeGoldenRod);
+
+  function makeGoldenRod(){
+    document.body.style.backgroundColor='goldenrod'
+}
+
+//
+
+const hotpinkButton = document.getElementById('make-hotpink-button');
+ hotpinkButton.addEventListener('click', function makePink(){
+     document.body.style.backgroundColor='hotpink';
+ })
+
+ //
+ const lightBlue = document.getElementById('make-light-button');
+  lightBlue.addEventListener('click', function(){
+      document.body.style.backgroundColor='lightblue'
+  })
+
