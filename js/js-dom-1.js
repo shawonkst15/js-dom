@@ -6,3 +6,10 @@ function makeRed(){
     document.body.style.margin='10px ';
     document.body.style.padding='10px ';
 }
+
+const blueButton = document.getElementById('make-blue-button');
+blueButton.onclick = makeBlue;
+
+function makeBlue(){
+    document.body.style.backgroundColor='blue';
+}
